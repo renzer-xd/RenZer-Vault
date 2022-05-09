@@ -141,11 +141,11 @@ Config.ClientOnInventoryClose = function(secondaryName)
 end
 ```
 # การติดตั้ง Logs เอาของเข้า/ออกเซฟ
-ในส่วนนี้เราจะขอแสดงตัวอย่างของ azael_dc-serverlogs
+ในส่วนนี้เราจะขอแสดงตัวอย่างของ `azael_dc-serverlogs`
 
 > ## เอาของเข้าตู้เซฟ
-1. ให้ไปที่ renzer_Vault\config จากนั้นเปิดไฟล์ config.function.lua
-2. มองหา Function RZ.ServerPutItemVault นำโค้ดต่อไปนี้ ไปวางใน Function
+1. ให้ไปที่ `renzer_Vault\config` จากนั้นเปิดไฟล์ `config.function.lua`
+2. มองหา Function `RZ.ServerPutItemVault` นำโค้ดต่อไปนี้ ไปวางใน Function
 ```css
 if type == 'item' then
     local sendToDiscord = '' .. xPlayer.name .. ' ฝาก ' .. label .. ' จำนวน ' .. ESX.Math.GroupDigits(count) .. ' ชิ้น เข้าตู้นิรภัย'
@@ -196,11 +196,11 @@ elseif type == 'weapon' then
     end
 end
 ```
-3. อย่าลืมทำ Event Name ไปเพิ่มใน config ของ สคริป azael_dc-serverlogs:sendToDiscord ด้วย
+3. อย่าลืมทำ Event Name ไปเพิ่มใน config ของ สคริป azael_dc-serverlogs ด้วย
 
 > ## เอาของออกจากตู้เซฟ
-1. ให้ไปที่ renzer_Vault\config จากนั้นเปิดไฟล์ config.function.lua
-2. มองหา Function RZ.ServerTakeItemVault นำโค้ดต่อไปนี้ ไปวางใน Function
+1. ให้ไปที่ `renzer_Vault\config` จากนั้นเปิดไฟล์ `config.function.lua`
+2. มองหา Function `RZ.ServerTakeItemVault` นำโค้ดต่อไปนี้ ไปวางใน Function
 ```css
 if type == 'item' then
     local sendToDiscord = '' .. xPlayer.name .. ' นำ ' .. label .. ' จำนวน ' .. ESX.Math.GroupDigits(count) .. ' ชิ้น ออกจากตู้นิรภัย'
@@ -251,4 +251,4 @@ elseif type == 'weapon' then
     end
 end
 ```
-3. อย่าลืมทำ Event Name ไปเพิ่มใน config ของ สคริป azael_dc-serverlogs:sendToDiscord ด้วย
+3. อย่าลืมทำ Event Name ไปเพิ่มใน config ของ สคริป azael_dc-serverlogs ด้วย
