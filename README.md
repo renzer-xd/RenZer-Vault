@@ -196,7 +196,7 @@ elseif type == 'weapon' then
     end
 end
 ```
-3. อย่าลืมทำ Event Name ไปเพิ่มใน config ของ สคริป azael_dc-serverlogs ด้วย
+3. อย่าลืมนำ Event Name ไปเพิ่มใน config ของ สคริป azael_dc-serverlogs ด้วย
 
 > ## เอาของออกจากตู้เซฟ
 1. ให้ไปที่ `renzer_Vault\config` จากนั้นเปิดไฟล์ `config.function.lua`
@@ -251,4 +251,4 @@ elseif type == 'weapon' then
     end
 end
 ```
-3. อย่าลืมทำ Event Name ไปเพิ่มใน config ของ สคริป azael_dc-serverlogs ด้วย
+3. อย่าลืมนำ Event Name ไปเพิ่มใน config ของ สคริป azael_dc-serverlogs ด้วย
