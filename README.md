@@ -1,3 +1,4 @@
+
 <div id="top"></div>
 
 <div align="center">
@@ -7,22 +8,6 @@
   <h2 align="center">คู่มือการติดตั้งและใช้งานทรัพยากร <b>RenZer Vauly</b></h2>
 <hr>
 </div>
-<summary><h3>รายละเอียดเนื้อหา</h3></summary>
-<ol>
-  <li><a href="#about-the-project"><h3>บทนำ</h3></a></li>
-  <li>
-    <a href="#getting-started">การติดตั้งและการตั้งค่าทรัพยากร</a>
-    <ul>
-      <li><a href="#prerequisites">การติดตั้ง</a></li>
-      <li><a href="#installation">การตั้งค่า</a></li>
-    </ul>
-  <li>
-    <a href="#getting-started">การติดตั้ง ส่วนเสริมในกระเป๋า</a>
-    <ul>
-      <li><a href="#prerequisites">esx_inventoryhud</a></li>
-      <li><a href="#installation">nc_inventory</a></li>
-    </ul>
-</ol>
 
 # บทนำ
 เพื่อให้ลูกค้าเข้าใจตรงกัน เราจะแนะนำการอ่านและดูตัวแปร Array ของโค้ดทางร้าน RenZer Developer Shop
